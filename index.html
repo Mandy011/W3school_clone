@@ -6,39 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>W3school</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
-    <link rel="stylesheet" href="stylesheet/stylesheet.css" />
+
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
 </head>
 
 <body>
     <nav>
-        <div class="nav-prt1">
+        <div class="navprt1">
             <img src="image/logo.png" alt="logo" />
-            <a href="">Tutorials <i class="ri-arrow-down-s-fill"></i></a>
-            <a href="">Exersices <i class="ri-arrow-down-s-fill"></i></a>
-            <a href="">Certificates <i class="ri-arrow-down-s-fill"></i></a>
-            <a href="">Services <i class="ri-arrow-down-s-fill"></i></a>
-
-            <div class="search-area"><input type="text" placeholder="search..." />
+            <div class="navprt1-menu">
+                <h4 class="navprt1-menu-600" href="">Menu <i class="ri-arrow-down-s-fill"></i></h4>
+                <a href="">Tutorials <i class="ri-arrow-down-s-fill"></i></a>
+                <a href="">Exersices <i class="ri-arrow-down-s-fill"></i></a>
+                <a href="">Certificates <i class="ri-arrow-down-s-fill"></i></a>
+                <a href="">Services <i class="ri-arrow-down-s-fill"></i></a>
+            </div>
+            <div class="search-container">
+                <input class="input-box" type="text" placeholder="search...">
                 <i class="ri-search-line"></i>
             </div>
-            <i class="ri-contrast-2-fill size-center"></i>
+            <div class="theme">
+                <i class="ri-contrast-2-fill size-center"></i>
+            </div>
+
         </div>
-        <div class="nav-prt2">
-            <a href=""><i class="ri-bard-fill"></i>plus</a>
-            <a href=""><i class="ri-graduation-cap-fill"></i>For teacher</a>
-            <a href=""> <i class="ri-code-s-slash-fill"></i>spaces</a>
-            <a href=""><i class="ri-shopping-cart-2-fill"></i>get certifieds</a>
-           
-                <div class="navbtn">
-                    <div class="navbtn-sign">
-                        <p>Sign Up</p>
-                    </div>
-                    <div class="navbtn-login">
-                        <p>login</p> 
-                    </div>
-                   
+
+        </div>
+        <div class="navprt2">
+            <div class="navprt2-options">
+                <a href=""><i class="ri-bard-fill"></i>plus</a>
+                <a href=""><i class="ri-graduation-cap-fill"></i>For teacher</a>
+                <a href=""> <i class="ri-code-s-slash-fill"></i>spaces</a>
+                <a href=""><i class="ri-shopping-cart-2-fill"></i>get certifieds</a>
+            </div>
+            <div class="navprt2-login-section">
+                <div class="navbtn-sign">
+                    <p>Sign Up</p>
                 </div>
-            
+                <div class="navbtn-login">
+                    <p>login</p>
+                </div>
+            </div>
+        </div>
     </nav>
     <div class="hero-section">
         <div class="hero-section-prt1">
@@ -84,12 +93,22 @@
             <h4>DATA SCIENCE</h4>
         </div>
         <div class="hero-section-prt2">
-
-        </div>
-
+            <div class="hs-prt2-container">
+                <h1>Learn to Code</h1>
+                <h4 class="with-the-world-text">With the world's largest web developer site.</h4>
+                <div class="hs-prt2-container-input">
+                    <div class="hs-prt-c-box">
+                        <input type="text" placeholder="Search our tutorials, e.g. HTML"> 
+                        <i class="ri-search-line"></i>
+                    </div>
+                    </div>
+                 
+                <h4 class="hs-prt2-container-h4-underline">Not Sure Where To Begin?</h4>
+            </div>
         </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#282A35" d="M0,192L80,186.7C160,181,320,171,480,165.3C640,160,800,160,960,144C1120,128,1280,96,1360,80L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>       
+    <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(40, 42, 53, 1)" offset="0%"></stop><stop stop-color="rgba(40, 42, 53, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,80L120,76.7C240,73,480,67,720,53.3C960,40,1200,20,1440,25C1680,30,1920,60,2160,70C2400,80,2640,70,2880,60C3120,50,3360,40,3600,30C3840,20,4080,10,4320,8.3C4560,7,4800,13,5040,28.3C5280,43,5520,67,5760,73.3C6000,80,6240,70,6480,68.3C6720,67,6960,73,7200,78.3C7440,83,7680,87,7920,88.3C8160,90,8400,90,8640,90C8880,90,9120,90,9360,76.7C9600,63,9840,37,10080,25C10320,13,10560,17,10800,20C11040,23,11280,27,11520,33.3C11760,40,12000,50,12240,55C12480,60,12720,60,12960,55C13200,50,13440,40,13680,33.3C13920,27,14160,23,14400,30C14640,37,14880,53,15120,58.3C15360,63,15600,57,15840,60C16080,63,16320,77,16560,83.3C16800,90,17040,90,17160,90L17280,90L17280,100L17160,100C17040,100,16800,100,16560,100C16320,100,16080,100,15840,100C15600,100,15360,100,15120,100C14880,100,14640,100,14400,100C14160,100,13920,100,13680,100C13440,100,13200,100,12960,100C12720,100,12480,100,12240,100C12000,100,11760,100,11520,100C11280,100,11040,100,10800,100C10560,100,10320,100,10080,100C9840,100,9600,100,9360,100C9120,100,8880,100,8640,100C8400,100,8160,100,7920,100C7680,100,7440,100,7200,100C6960,100,6720,100,6480,100C6240,100,6000,100,5760,100C5520,100,5280,100,5040,100C4800,100,4560,100,4320,100C4080,100,3840,100,3600,100C3360,100,3120,100,2880,100C2640,100,2400,100,2160,100C1920,100,1680,100,1440,100C1200,100,960,100,720,100C480,100,240,100,120,100L0,100Z"></path></svg>
+
 </body>
 
 </html>
